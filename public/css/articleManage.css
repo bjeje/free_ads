@@ -1,0 +1,12 @@
+.card-body {
+    padding: 2em 4em !important;
+}
+
+.form-group {
+    margin-bottom: 1em ;
+}
+
+.btn__submit {
+    position: absolute;
+    right: 4.1em;
+}

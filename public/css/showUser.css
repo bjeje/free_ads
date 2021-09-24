@@ -1,0 +1,25 @@
+.card {
+     margin: 0 auto;
+     max-width: 30em;
+     margin-bottom: 9vh;
+ }
+
+.box__card_profil {
+    margin-bottom: 20vh !important;
+}
+
+.box__card_delete {
+    margin-bottom: 25vh !important;
+}
+
+.card__user, .card__delete {
+    padding: 2em 4em !important;
+}
+
+.user__info, .user__delete {
+    font-size: 1.3em;
+}
+
+.user__delete {
+    text-align: center;
+}

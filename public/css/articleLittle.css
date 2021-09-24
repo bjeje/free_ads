@@ -1,0 +1,162 @@
+.box__search-bar {
+
+    width: 100% !important;
+    margin: 2.5em auto 3em auto;
+    padding: 1em 2em;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07),
+    0 2px 4px rgba(0,0,0,0.07),
+    0 4px 8px rgba(0,0,0,0.07),
+    0 8px 16px rgba(0,0,0,0.07),
+    0 8px 16px rgba(0,0,0,0.07),
+    0 1px 2px rgba(0,0,0,0.07);
+}
+
+#order {
+    position: relative;
+    left:1em;
+}
+
+.price {
+    margin-top:0.05em;
+    width: 7em;
+}
+
+.btn-outline {
+    color: #EA5326 !important;
+    border-color: #EA5326 !important;
+}
+
+.btn-outline:hover {
+    color: #FFFFFF !important;
+    background-color: #EA5326 !important;
+}
+
+.btn--add {
+    height: 2.5em !important;
+}
+
+.icon--add {
+    margin: 0.35em 0.3em 0 0;
+}
+
+.search-bar {
+    position: relative;
+    left: 2%;
+    display:flex;
+    margin-left: 0.5em;
+}
+
+.priceVal {
+    width: 24% !important;
+}
+
+.card__little {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07),
+    0 2px 4px rgba(0,0,0,0.07),
+    0 4px 8px rgba(0,0,0,0.07),
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07),
+    0 32px 64px rgba(0,0,0,0.07);
+}
+
+.card__content {
+    padding: 1em 10%;
+}
+
+.image {
+    height: 12em;
+    width: auto;
+    margin: 1em 0;
+}
+
+.title__little {
+    font-size: 1.5em;
+}
+
+.price__little {
+
+}
+
+.box__link {
+    display:flex;
+    justify-content: space-between;
+}
+
+.link__little {
+    color: #EA5326;
+    font-weight: bold;
+    font-size: 0.98em;
+}
+
+.date__little, .category__little {
+    color: #636b6f;
+    font-size: 1.2em;
+}
+
+.date__little {
+    text-align: left;
+    font-style: italic;
+}
+
+.category__little {
+
+}
+
+.card.card__big {
+    margin: 4.5em auto;
+    max-width: 60em;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07),
+    0 2px 4px rgba(0,0,0,0.07),
+    0 4px 8px rgba(0,0,0,0.07),
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07),
+    0 32px 64px rgba(0,0,0,0.07);
+}
+
+.card__content_big {
+    padding: 2em 5%;
+}
+
+.image__big {
+    height: 12em;
+    width: auto;
+    margin: 0.5em 0;
+}
+
+.title__big {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.description__big {
+    padding: 1.1em 0 1em 0;
+}
+
+.link__back {
+    color: #0add77;
+    font-weight: bold;
+    font-size: 0.98em;
+    position: absolute;
+    right: 5%;
+    top: 1.5em;
+    padding-right: 1em;
+}
+
+.btn__modify {
+    background: #EA5326;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.btn__delete {
+    background: #FFFFFF;
+    color: #f30303;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image__small {
+    height: 5em !important;
+    width: auto;
+    margin: 1em 0;
+}

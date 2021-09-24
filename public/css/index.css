@@ -1,0 +1,176 @@
+* {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+html, body {
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+
+}
+
+h4 {
+    font-size: 0.5em;
+}
+
+/*------------------- menu  --------------------*/
+
+.menu {
+    width: 100%;
+    height: 5em;
+    display: flex;
+}
+
+.container__menu {
+    display: flex;
+    margin: 0 10%;
+    width: 100%;
+    padding-right: 1.3em;
+}
+
+.navbar-collapse ul {
+    margin: 0 23.5% 0 auto;
+}
+
+.brand__name {
+    font-size: 1.9em !important;
+    color: #EA5326 !important;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.navbar-toggler, .navbar-toggler:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link-menu {
+    padding-left: 1.5em;
+}
+
+.border {
+    position: absolute;
+    top: 4em;
+    border: 1px solid #E8E8E8;
+    width: 100%;
+}
+
+/*------- end menu ---------*/
+
+
+
+/*---------- FOOTER ---------*/
+.border--bottom {
+    margin-top:2em;
+    border: 2px solid #E8E8E8;
+    width: 100%;
+}
+
+footer {
+    height: 8em;
+    width: 100%;
+    /*background: #C2BEBD;*/
+}
+
+.who {
+    position:relative;
+    top: 0.7em;
+    left: 10%;
+}
+
+.who h4 {
+    color: #444;
+}
+
+.who ul li a {
+    color: #636b6f;
+}
+
+.footer__nav {
+    padding-left: 0;
+}
+
+.media {
+    position: relative;
+    bottom: 3.7em;
+}
+
+.social {
+    float: right;
+    padding-right:1.9em;
+    font-size: 1.4em;
+    color: #444;
+}
+
+.media:nth-child(2) {
+    padding-right: 10%;
+}
+
+/*-------- MEDIA QUERY  --------*/
+
+@media (min-width: 768px) {
+    .container-md {
+        padding-left: 0 !important;
+        margin: 0;
+        max-width: 80% !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .container__menu {
+        margin: 0 0;
+        padding: 0 15px;
+    }
+
+    .navbar-nav {
+        margin-top: 1.5em !important;
+        width: 100%;
+        background: rgba(241, 233, 233, 0.7);
+        text-align: center;
+        padding: 0.5em 0 0.7em 0;
+    }
+
+    .nav-link {
+        line-height: 2em;
+    }
+
+    .navbar-nav {
+        margin-top: 1.5em;
+    }
+
+    .who {
+        left: 15px;
+    }
+
+    .media:nth-child(2) {
+        padding-right: 0;
+    }
+
+    .social {
+        padding-right: 1.4em;
+    }
+}
